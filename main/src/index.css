@@ -40,6 +40,9 @@
     .metrics li{
         width: 100%;
     }
+    .p{
+        padding: 4px;
+    }
 }
 @media (min-width: 677px){
     .f{
@@ -59,7 +62,14 @@
     .m{
         flex-direction: row;
     }
-
+    .n{
+        justify-content: center;
+        align-items: center;
+    }
+    .p{
+        padding: 12px;
+    }
+    
 }
 @media (min-width: 900px){
     .w{
