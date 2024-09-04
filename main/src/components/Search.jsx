@@ -23,7 +23,7 @@ const Search = () => {
         method: 'GET',
         url: `https://yahoo-finance127.p.rapidapi.com/search/${query}`,
         headers: {
-          'x-rapidapi-key': 'c72be7d861mshe83475f9d520233p1f7683jsn6d6544dcf5ee',
+          'x-rapidapi-key': '2a5ea49debmsh90928073978c210p19c019jsn79219de4c402',
           'x-rapidapi-host': 'yahoo-finance127.p.rapidapi.com'
         }
       };
