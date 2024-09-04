@@ -19,3 +19,61 @@
 #profile{
     padding-top: 0.75em;
 }
+
+@media (max-width: 676px){
+    .f{
+        flex-direction: column;
+    }
+    .w{
+        width: 100%;
+    }
+    .fr{
+        flex-direction: column;
+    }
+    .t img{
+        height: 32px;
+        width: 32px;
+    }
+    .m{
+        flex-direction: column;
+    }
+}
+@media (min-width: 677px){
+    .f{
+        flex-direction: row;
+    }
+    .w{
+        width: 33%;
+    }
+    .fr{
+        flex-direction: column;
+    }
+    .t img{
+        height: 32px;
+        width: 32px;
+    }
+    
+    .m{
+        flex-direction: row;
+    }
+
+}
+@media (min-width: 900px){
+    .w{
+        width: 25%;
+    }
+    .fr{
+        flex-direction: column;
+    }
+    .t img{
+        height: 32px;
+        width: 32px;
+    }
+   
+    
+}
+@media (min-width: 1200px){
+    .fr{
+        flex-direction: row;
+    }
+}
