@@ -1,6 +1,6 @@
-import Home from './dist/components/Home.jsx'
+import Home from './components/Home.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import StockPage from './dist/components/StockPage'
+import StockPage from './components/StockPage.jsx'
 
 function App() {
 
