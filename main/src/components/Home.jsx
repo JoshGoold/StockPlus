@@ -20,7 +20,7 @@ const Home = () => {
         language: 'en'
       },
       headers: {
-        'x-rapidapi-key': 'c72be7d861mshe83475f9d520233p1f7683jsn6d6544dcf5ee',
+        'x-rapidapi-key': '2a5ea49debmsh90928073978c210p19c019jsn79219de4c402',
         'x-rapidapi-host': 'real-time-finance-data.p.rapidapi.com'
       }
     };
@@ -56,7 +56,7 @@ const Home = () => {
               <h1>{stock.name}</h1>
             </div>
             <div className="flex f gap-2">
-              <strong >${stock.price}<b className={`${String(stock.change).includes("-") ? "text-red-500" : "text-green-500"}`}>{Number(stock.change).toFixed(2)}</b></strong>
+              <strong >${stock.price}&nbsp; <b className={`${String(stock.change).includes("-") ? "text-red-500" : "text-green-500"}`}>{Number(stock.change).toFixed(2)}</b></strong>
               <h3 className={`${String(stock.change_percent).includes("-") ? "text-red-500" : "text-green-500"}`}>%{Number(stock.change_percent).toFixed(2)}</h3>
             </div>
           </div>

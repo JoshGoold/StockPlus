@@ -141,13 +141,13 @@ const StockPage = () => {
     <div className='p-4'>
         <div className="text-2xl m p-10 flex justify-between shadow-md">
             <div className="flex t items-center"><img className='h-16 w-16' alt='Logo' src={icon || "N/A"}></img> &nbsp; <h1>{symbol} | {data.displayName}</h1></div>
-            <div className="flex n gap-2">
+            <div className="flex p-3 n gap-2">
             <button className='text-sm p-3 rounded-sm hover:scale-105 shadow-md' onClick={()=> nav("/")}>Home</button>
             <button onClick={()=>setPageNav({stockAnalysis: true, financials: false, news: false})} className={`${pageNav.stockAnalysis === true ? "bg-blue-500 text-white" : ""} rounded-sm text-sm p-3 hover:scale-105 shadow-md`} >Stock Analysis</button>
             <button onClick={()=>setPageNav({stockAnalysis: false, financials: true, news: false})} className={`${pageNav.financials === true ? "bg-blue-500 text-white" : ""} rounded-sm text-sm p-3 hover:scale-105 shadow-md`} >Financials</button>
             <button onClick={()=>setPageNav({stockAnalysis: false, financials: false, news: true})} className={`${pageNav.news === true ? "bg-blue-500 text-white" : ""} rounded-sm text-sm p-3 hover:scale-105 shadow-md`} >News</button>
             </div>
-        </div>
+        </div> 
         {/* Company Metrics */}
         {pageNav.stockAnalysis === true && (
           <div className="">

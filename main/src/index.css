@@ -37,6 +37,9 @@
     .m{
         flex-direction: column;
     }
+    .metrics li{
+        width: 100%;
+    }
 }
 @media (min-width: 677px){
     .f{
