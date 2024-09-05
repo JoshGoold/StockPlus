@@ -39,7 +39,7 @@ const StockPage = () => {
         method: 'GET',
         url: `https://yahoo-finance127.p.rapidapi.com/news/${symbol}`,
         headers: {
-          'x-rapidapi-key': '2a5ea49debmsh90928073978c210p19c019jsn79219de4c402',
+          'x-rapidapi-key': '93ceb5e031msha366dabed48efd5p165496jsna3bd98966d89',
           'x-rapidapi-host': 'yahoo-finance127.p.rapidapi.com'
         }
       };
@@ -58,7 +58,7 @@ const StockPage = () => {
         method: 'GET',
         url: `https://yahoo-finance127.p.rapidapi.com/finance-analytics/${symbol}`,
         headers: {
-          'x-rapidapi-key': '2a5ea49debmsh90928073978c210p19c019jsn79219de4c402',
+          'x-rapidapi-key': '93ceb5e031msha366dabed48efd5p165496jsna3bd98966d89',
           'x-rapidapi-host': 'yahoo-finance127.p.rapidapi.com'
         }
       };
@@ -101,7 +101,7 @@ const StockPage = () => {
           method: 'GET',
           url: `https://yahoo-finance127.p.rapidapi.com/key-statistics/${query}`,
           headers: {
-            'x-rapidapi-key': '2a5ea49debmsh90928073978c210p19c019jsn79219de4c402',
+            'x-rapidapi-key': '93ceb5e031msha366dabed48efd5p165496jsna3bd98966d89',
             'x-rapidapi-host': 'yahoo-finance127.p.rapidapi.com'
           }
         };
@@ -123,7 +123,7 @@ const StockPage = () => {
             method: 'GET',
             url: `https://yahoo-finance127.p.rapidapi.com/asset-profile/${symbol}`,
             headers: {
-              'x-rapidapi-key': '2a5ea49debmsh90928073978c210p19c019jsn79219de4c402',
+              'x-rapidapi-key': '93ceb5e031msha366dabed48efd5p165496jsna3bd98966d89',
               'x-rapidapi-host': 'yahoo-finance127.p.rapidapi.com'
             }
           };
